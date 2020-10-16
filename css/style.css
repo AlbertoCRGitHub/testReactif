@@ -1,0 +1,131 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background:#ccc;
+  color: white;
+  position: relative;
+}
+
+.droite{
+   background-color: #1b1b1b ;
+   /* border: #cc0000 1px solid; */
+   position: relative;
+} 
+.todoroite{
+  margin-top:  30vh; 
+/*    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  border: 3px solid green;  */
+
+ }
+
+.colorred{
+  color: #cc0000;
+  
+}
+.borderred{
+  border: #cc0000 1px solid;
+}
+
+.carta *{
+  /* border: 1px solid white; */
+  /* padding: 20px; */
+ 
+}
+
+ .images img{
+/*   width: 2000px;
+  height: auto; */
+  height: 100vh;
+
+} 
+
+.otro{
+  border-color: #323232;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin-right: 90px;margin-left: 88px;
+  margin-top: 40px;
+  padding-top: 22px;
+}
+
+.bo{
+  border: 2px solid greenyellow;
+}
+
+.slick-dots li{
+ /*  color: aqua;
+  width: 30px; */
+  width: 20px;
+  height: 5px;
+  float: left;
+  background:#cc0000;
+  margin: 2.5%;
+  list-style: none;
+  
+}
+
+li button{
+  display: none;
+}
+
+.slider-nav{
+  margin: 40px;
+  padding: 10px;
+}
+.pieSlide{
+  margin: 0;
+  font-size: small;
+}
+h3 {
+  /* background: #fff; */
+  
+  font-size: 36px;
+  font-weight: 900;
+  margin: 30px;
+  padding: 2%;
+  position: relative;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 49px;
+   
+}
+.piecol {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 11px;
+	margin-top: 1px;
+}
+
+div.absolute {
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  width: 25%;
+  height: 100%;
+  
+}
+.hide {
+  display: none; 
+  /* display: block; */
+}    
+ .myDIV:hover .hide {
+  display: block;
+  color: red;
+  background-color: #1b1b1b ;
+  
+} 
+.square{
+width: 160px;
+height: 160px ;
+border: white 1px solid;
+background-color: tomato;
+}
